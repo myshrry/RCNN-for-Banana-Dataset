@@ -32,7 +32,7 @@ def predict(img_path, alexnet, linear_net):
         utils.draw_box(img)
 
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cpu')
 # =====================加载Alexnet训练参数====================
 alexnet_state_dict = './model/classify_5th_model.pth'
 alexnet = utils.get_Alexnet()

@@ -97,5 +97,5 @@ class Selective_search():
 
 if __name__ == '__main__':
     download.download_extract()
-    Selective_search('./data/banana-detection/bananas_val').save(4)
-    Selective_search('./data/banana-detection/bananas_train').save(4)
+    Selective_search('./data/banana-detection/bananas_val').save(os.cpu_count())
+    Selective_search('./data/banana-detection/bananas_train').save(os.cpu_count())

@@ -10,3 +10,4 @@
 
 --若要从头训练，则先运行selective_search.py生成相应数据集后，再运行train.py，然后运行predict.py就能得到结果
   
+csdn博客链接：https://blog.csdn.net/Myshrry/article/details/124181381?spm=1001.2014.3001.5502
